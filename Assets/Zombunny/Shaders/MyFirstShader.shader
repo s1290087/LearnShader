@@ -1,4 +1,4 @@
-Shader "Holistic/HelloShader" {
+Shader "Custom/HelloShader" {
 	
 	Properties {
 	     _myColour ("Example Colour", Color) = (1,1,1,1)
