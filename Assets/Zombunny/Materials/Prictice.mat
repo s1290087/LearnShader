@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Prictice
-  m_Shader: {fileID: 4800000, guid: 3e8992f02eacc2841a711816a682c7e7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 3e0e24ce2c1a43642b9e454c57323a7e, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -56,12 +56,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _myBump:
+        m_Texture: {fileID: 2800000, guid: 0652ccf867bdd8e429e17da09bbc51db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _myCube:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8900000, guid: 819f67f916b929f4f9fdd391a19b9f6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myDiffuse:
+        m_Texture: {fileID: 2800000, guid: 64400c8285ac96e4094fb2ca15ebf712, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myEmis:
+        m_Texture: {fileID: 2800000, guid: c22dd8c38b0ad024192bf33511c4e23f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 56ad01be1c8cd7846a5f6de26ab6c427, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -77,16 +89,22 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Scale: 1.22
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - _myBright: 1.1
     - _myFloat: 0.5
     - _myRange: 1.57
+    - _mySlider: 2.1
     m_Colors:
     - _Color: {r: 0.8207547, g: 0.29732996, b: 0.29732996, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _myColor: {r: 1, g: 1, b: 1, a: 0}
+    - _myColour: {r: 1, g: 1, b: 1, a: 1}
+    - _myEmission: {r: 1, g: 1, b: 1, a: 1}
+    - _myNormal: {r: 1, g: 1, b: 1, a: 1}
     - _myVector: {r: 0.5, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
