@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Prictice
-  m_Shader: {fileID: 4800000, guid: 3e0e24ce2c1a43642b9e454c57323a7e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 747ea46ee8f5477498da3dfcebac1759, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -89,19 +89,21 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Scale: 1.22
+    - _RimPower: 6.9
+    - _Scale: 1.1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _myBright: 1.1
+    - _myBright: 1.7
     - _myFloat: 0.5
     - _myRange: 1.57
-    - _mySlider: 2.1
+    - _mySlider: 15.7
     m_Colors:
     - _Color: {r: 0.8207547, g: 0.29732996, b: 0.29732996, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0, g: 0.08513975, b: 1, a: 0}
     - _myColor: {r: 1, g: 1, b: 1, a: 0}
     - _myColour: {r: 1, g: 1, b: 1, a: 1}
     - _myEmission: {r: 1, g: 1, b: 1, a: 1}
